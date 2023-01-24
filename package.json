@@ -1,0 +1,30 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "WhatsApp Gateway Indonesia",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Markas Web",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-validator": "^6.14.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "qrcode": "^1.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "^6.25.0",
+    "socket.io": "^4.5.3",
+    "uuid": "^9.0.0",
+    "whatsapp-web.js": "^1.17.1"
+  }
+}
